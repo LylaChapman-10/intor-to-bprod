@@ -94,7 +94,7 @@ def Lady():
 
 def Sandra():
     print("Worker: I've heard of someone with that name... I can't remember who.\n You: ...Thank you.\n YOU LEAVE THE TOWN HOUSE")
-a6 =input( "1. Go to the icecream Palor\n 2. Go to the market\n 3. go talk to a coldminer by the mountian  ")
+a6 = input( "1. Go to the icecream Palor\n 2. Go to the market\n 3. go talk to a coldminer by the mountian  ")
 if a6 =="1":
     Palor() 
 elif a6 == "2":
@@ -107,7 +107,6 @@ def Market():
     print("YOU WALK INTO THE MARKET, YOU SEE A CASHIER. YOU GO UP TO THEM \n YOU: Hve you seen a woman named Sandra? \n Worker: I don't think so... \n YOU: She has black hair.. 5'5? \n Worker: No sorry. \n YOU: Thanks anyway.   ")
 
 def Palor():
-
     print("YOU WALK INTO  THE PARLOR, NO ONES IN THERE YOU GET IN LINE.\n Worker: Hello! What would you like Sr.? \n YOU: I would like plain ole Vanila\n Worker: Alright! It will be done in a few...")
 a7 = input(" 1. Ask about Sandra\n 2. Don't say anything \\n 3. Hit on her")
 if a7 == "1":
@@ -118,6 +117,21 @@ elif a7 == "3":
     Hit()
 else:
     print("INVALID ANSWER")
+def Hit():
+    print("YOU: you're like very pretty.. We could go on a icecream  date..? \n Worker: ugh, seriosuly I've had enough of men like you around here. You know what? I'm not giving you your icecream! Goodbye!!! \n WORKER ENDS YOU WITH ENTERNAL STARE")
+def Say():
+    print("Worker: your not going to talk to me? UGH SERIOSULY IV'E ALREADY HAVE HAD A BAD DAy. \n WORKER THROWS THE ICECREAM AT YOU, \n YOU FALL TO THE GROUND, \n HITTING YOUR HEAD AND DYING.")
+
+def Sand():
+    print(" Worker: Oh yeah! She came in here earlier this week saying something about going to find gold up in the mountian. \n I wonder where she got that myth from...\n YOUR REMEMBER A FEW MONTHS AGO SANDRA WAS TALKING ABOUT GOING TO THE MOUNTAINS TO LOOK FOR GOLD. \n YOU: Thank you so much I appreciate it. \n YOU GO OUT THE PARLOR TO THE MINE NEAR BY")
+
+
+
+
+
+
+
+
 
 
 def Bye():
