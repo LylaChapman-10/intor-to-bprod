@@ -12,7 +12,7 @@ def start():
     elif a1 =="4":
         Bye()
     else: 
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
       
 
 def Imlost(): 
@@ -25,7 +25,7 @@ def Imlost():
     elif a2 == "3":
         Ask()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER  \n ")
 
 def Horse():
     print(" YOU WALK OVER TO THE STABLES..\n  YOU: Wow theres are some purty horses..\n YOU START TO PET THE HORSES\n do you know wh-\n HORSE KICKS YOU, YOU DIE.  \n  ")
@@ -35,43 +35,43 @@ def Horse():
     elif a11 == "2":
         NOOO()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER\n")
 def NOOO():
-    print ("LOL REKT")
+    print ("LOL REKT \n")
     a13 = input(" 1. Seesh mean much\n 2. I like your humor \n ")
     if  a13 == "1":
         seesh()
     elif a13 == "2":
         humor()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 
 def humor():
-    print(" Hey thanks man, nobody else likes my humor")
-    a15 =input(" 1. Yeah I like it. \n 2. NO SIKEEE")
+    print(" Hey thanks man, nobody else likes my humor \n ")
+    a15 =input(" 1. Yeah I like it. \n 2. NO SIKEEE \n ")
     if a15 == "1":
         yeahh()
     elif a15 == "2":
         SIKE()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n ")
 def yeahh():
-    print("Hermm, maybe ill revive you huh? just rerun alrighty.")
+    print("Hermm, maybe ill revive you huh? just rerun alrighty. \n")
 def SIKE():
-    print(" Woah dude, low blow. GET OUTTA HERE")
+    print(" Woah dude, low blow. GET OUTTA HERE \n ")
 def seesh():
-    print("No humor huh?")
+    print("No humor huh? \n")
     a14 = input("1. I do have humor!! \n 2. Nah dude ur madd. \n")
     if a14 == "1":
         do()
     elif a14 == "2":
         mad()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def do():
     print(" Yeah yeah get outta here man. \n ")
 def mad():
-    print("bro what get out.")
+    print("bro what get out. \n")
 def Oh():
     print(" Sucks to suck bozo")
     a12 = input("1. RUDE! \n 2. LOL\n")
@@ -80,12 +80,12 @@ def Oh():
     elif a12 == "2":
         lol()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 
 def rude():
-    print("NOBODY CARES BYE")
+    print("NOBODY CARES BYE \n")
 def lol():
-    print("Ikr, im so funny hahahah")
+    print("Ikr, im so funny hahahah \n")
 
 def Ask():
     print(" YOU ACCIDENTALY BUMP INTO A MAN..\n YOU: Hey! Im sorr-\n HE PUNCHES YOU IN THE FACE. YOU DIED")
@@ -98,7 +98,7 @@ def Inn():
     elif a3 =="2":
         male()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def room():
     print("YOU WALK IN ROOM 41, A GOBLIN FIGHTS YOU, YOU LOSE. \n")
 
@@ -118,7 +118,7 @@ def WTG():
     elif a4 == "2":
         NO()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def NO():
     print("Worker: EXCUSE ME?? NO?? MY WONDERFUL DAUGHTER RUNS THAT ICECREAM PARLOR!!!\n WORKER MAN SOCCER PUNTS YOU...\n YOU DIED.")
    
@@ -132,7 +132,7 @@ def Try():
     elif a5 == "3":
         Lady()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def Van():
     print("Worker: UGH! BASIC MAN EVER!!\n SHE THROWS ICECREAM AT YOU YOU GET A BRAINFREEZE AND FREEZE TO DEATH. \n")
 
@@ -159,7 +159,7 @@ def Sandra():
     elif a6 == "3":
         Mount()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def Market():
     print("YOU WALK INTO THE MARKET, YOU SEE A CASHIER. YOU GO UP TO THEM \n YOU: Hve you seen a woman named Sandra? \n Worker: I don't think so... \n YOU: She has black hair.. 5'5? \n Worker: No sorry. \n YOU: Thanks anyway. \n  ")
 def Mount():
@@ -174,7 +174,7 @@ def Palor():
     elif a7 == "3":
         Hit()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def Hit():
     print("YOU: you're like very pretty.. We could go on a icecream  date..? \n Worker: ugh, seriosuly I've had enough of men like you around here. You know what? I'm not giving you your icecream! Goodbye!!! \n WORKER ENDS YOU WITH ENTERNAL STARE")
 def Say():
@@ -190,7 +190,7 @@ def Sand():
     elif a8 == "3":
         Crater()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 
 def Mine():
     print(" YOU  WALK INTO THE MINE.. AS YOU GO IN FURTHER YOU HEAR A RUMBILING BEHIND YOU. ROCKS SUDDENLY SLIP TOWARDS YOU. DED \n")
@@ -206,7 +206,7 @@ def Miner():
     elif a9 == "3":
         Right()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 
 def Left():
     print(" AS YOU WALK INTO THE TUNNEL A WORKER SUDDENLY HITS YOU IN THE HEAD WITH A SHOVEL YOU HIT YOUR HEAD AND DIE. \n")
@@ -216,7 +216,7 @@ def Left():
     elif a16 == "2":
         Oker()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 
 def Oker():
     print(" wow your chill like that \n YOU: yer \n")
@@ -228,7 +228,7 @@ def HOWW():
     elif a17 == "2":
         Who()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def bruhh():
     print(" Imagine dying from a shovel LOL, get outta here \n ")
 def Who():
@@ -239,7 +239,7 @@ def Who():
     elif a18 =="2":
         believe()
     else:
-        print ("INVALID ANSWER")
+        print ("INVALID ANSWER \n")
 
 def believe():
     print(" DEATH: Okay well.. \n HE SUMMONS YOU \n DEATH: Bye I'm banning you- \n DEATH BANS YOU FROM EXISTANCE ")
@@ -251,7 +251,7 @@ def Waut():
     elif a19 == "2":
         ermm()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def sis():
     print(" DEATH: Alright  \n DEATH SUMMONS YOU TO THE UNDERWORLD\n YOU: Dang this is cool man. \n YOU LIVE WITH DEATH FOR FOREVER IT WAS AWESOME \n ")
 def ermm():
@@ -265,7 +265,7 @@ def Middle():
     elif a20 == "20":
         RIPaE()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def RIPaE():
     print(" LOL REKT. deeed \n")
 def Yoww():
@@ -276,7 +276,7 @@ def Yoww():
     elif a21 == "2":
         did()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def did():
     print(" Na dude go workout.. \n")
 def UHUH():
@@ -287,14 +287,14 @@ def UHUH():
     elif a22 == "2":
         Guessy()
     else:
-        print("INVALID ANSWER")
+        print("INVALID ANSWER \n")
 def BRUUR():
     print(" UR BAD. DED \n")
 def Guessy():
     print(" Hit the gym my guy.. \n")
 
 def Right():
-    print("YOU WALK INTO THE TUNNEL, YOU HEAR A DISTANCE VOICE.. YOU RUN TO THE VOICE. \n UNKNOWN: Help me!!!! \n YOU: Sandra..?? \n SANDRA: Yes! Y/N? \n YOU: are you alright? Whats wrong?? \n AS YOU WALK TO SANDRA YOU SEE HER LIMPING  \n SANDRA: I twisted my Ankle back there. I found the gold atleast! \n SHE MOVES HER BODY TO THE SIDE AND A STASH OF COINS SUDDENLY APPEAR. \n YOU: Seriosuly? How! \n SANDRA: Ifound it in a well a few miles down. I twisted my ankle climbing back up by slipping and falling back into thewell. \n YOU: Jeesh, lets get you out of here so wecan fix your leg. \n SANDRA: Alright. \n YOU HELP SANDRA AND GO OUT OF THE TUNNEL. SUDDENLY ROCKS START  TUMBULING TOWARDS YOU.. \n  ")
+    print("YOU WALK INTO THE TUNNEL, YOU HEAR A DISTANCE VOICE.. YOU RUN TO THE VOICE. \n UNKNOWN: Help me!!!! \n YOU: Sandra..?? \n SANDRA: Yes! Y/N? \n YOU: are you alright? Whats wrong?? \n AS YOU WALK TO SANDRA YOU SEE HER LIMPING  \n SANDRA: I twisted my Ankle back there. I found the gold atleast! \n SHE MOVES HER BODY TO THE SIDE AND A STASH OF COINS SUDDENLY APPEAR. \n YOU: Seriosuly? How! \n SANDRA: I found it in a well a few miles down. I twisted my ankle climbing back up by slipping and falling back into thewell. \n YOU: Jeesh, lets get you out of here so wecan fix your leg. \n SANDRA: Alright. \n YOU HELP SANDRA AND GO OUT OF THE TUNNEL. SUDDENLY ROCKS START  TUMBULING TOWARDS YOU.. \n  ")
     a10 =input(" 1. Run towards rocks. \n 2. Safe yourself. \n 3. Hide in a creves with Sandra")
     if a10 == "1":
         Ruaa()
@@ -304,11 +304,46 @@ def Right():
         HIDE()
 def Ruaa(): 
     print(" YOU RUN TOWARDS THE ROCKS WITH SANDRA,YOU GET HIT BY THE ROCKS AND DIE.\n ")
+    a23 = input("1.bro I should have hid.. \n 2. Seriously \n ")
+    if a23 == "1":
+        BROW()
+    elif a23 == "2": 
+        Seriosu()
+    else:
+        print("INVALID ANSWER \n")
+def BROW():
+    print(" L L L REKT \n ")
+def Seriosu():
+    print(" LOL REKT REKT \n ")
 def Savee():
     print("YOU RUN OUT OF THE MINE UNHARMED. YOU DIE OF GUILT OF LEAVING SANDRA BEHIND \n")
+    a24 = input("1. Dude I saved myself how can I die of guilt..? \n 2. I guess thats alright.. \n")
+    if a24 =="1":
+        selff()
+    elif a24 == "2":
+        alrights()
+    else:
+        print("INVALID ANSWER \n ")
+
+def alrights():
+    print("Yeah thats what I thought \n") 
+
+def selff():
+    (" That's what you get for being  a horrible person. \n ")
+    a25 = input(" 1. RUDE \n 2. Yeah.. \n")
+    if a25 == "1":
+        RUDEYS()
+    elif a25 == "2":
+        Yeahhh()
+    else:
+        print(" INVALID ANSWER \n")
+def Yeahhh():
+    print(" See now you get it \n")
+def RUDEYS():
+    print(" Bro I'm bannishing you for being a bad person \n ")
 def HIDE():
     print(" YOU GRAB SANDRA AND THE GOLD AND RUN THE THE CREVES. THE ROCKS SLOWLY STOP TUMBLING AT YOU. \n SANDRA: Thank god.. Now lets get out of here! \n YOU AND SANDRA MOVE THE ROCKS AWAY AND LIMP TOWARDS THE EXIT. \n YOU: We're out! \n SANDRA: Great, lets getto a hospital now, huh? \n SANDRA RECOVERS FROM HER FRACTURED LEG AND YOU BOTH LIVE HAPPILY EVER AFTER WITH YOUR RICHES. \n ")
 def Bye():
-    print("...")
+    print("... \n")
 
 start()
