@@ -1,5 +1,5 @@
 def start():
-    print("WELCOME TO THE WEST.")
+    print("WELCOME TO THE WEST.\n")
     print(" YOU ARE LOOKING FOR YOUR FRIEND SANDRA, WHO WENT MISSING \n ")
     a1 = input("Worker: Hello Traveler, what brings you to the Town house?\n 1. Im lost.. \n 2. Where should I go?\n 3. Do you know someone named Sandra?\n 4. Goodbye.\n")
 
@@ -37,7 +37,7 @@ def Horse():
     else:
         print("INVALID ANSWER\n")
 def NOOO():
-    print ("LOL REKT \n")
+    print ("LOL REKT  DO NOT MESS WITH HORSES \n")
     a13 = input(" 1. Seesh mean much\n 2. I like your humor \n ")
     if  a13 == "1":
         seesh()
@@ -88,8 +88,18 @@ def lol():
     print("Ikr, im so funny hahahah \n")
 
 def Ask():
-    print(" YOU ACCIDENTALY BUMP INTO A MAN..\n YOU: Hey! Im sorr-\n HE PUNCHES YOU IN THE FACE. YOU DIED")
-   
+    print(" YOU ACCIDENTALY BUMP INTO A MAN..\n YOU: Hey! Im sorr-\n HE PUNCHES YOU IN THE FACE. YOU DIED \n")
+    a30 = input( "1. NO WAY \n 2. How rude.. \n")
+    if a30 == "1":
+        NOWAYD()
+    elif a30  == "2":
+        rudde()
+    else:
+        print("INVALID ANSWER \n")
+def NOWAYD():
+    print(" LOL REKT RETRY \n")
+def rudde():
+    print("FRR LOL \n")
 def Inn():
     print("YOU WALK TO THE INN YOUR STAYING AT, AS YOU GET TO THE FRONT DESK A TALL BUFFY MALE COMES UP TO YOU..\n Male: Who are you..\n HE SAYS IN A DARK GRUMPY VOICE.\n YOU: Im Y/N, Im here to check in?\n MALE: Oh yeah.. Y/N you are in room 41. \n")
     a3 = input("1. Go to your room.\n 2. talk to the male more. \n")
@@ -103,7 +113,7 @@ def room():
     print("YOU WALK IN ROOM 41, A GOBLIN FIGHTS YOU, YOU LOSE. \n")
 
 def male():
-    print("YOU: Do you perhaps know someone named Sandra?\n Male: Yes. She came here earlier this week, she left abruptly saying she had buisness in the mountains or something...\n You: Really? What time did she leave at?!\n Male: Sorry I'm busy now.. \n")
+    print("YOU: Do you perhaps know someone named Sandra?\n Male: Yes. She came here earlier this week, she left abruptly saying she had buisness in the mountains or something...\n YOU: Really? What time did she leave at?!\n Male: Sorry I'm busy now.. \n YOU: Please \n Male; DUDE REALLY I SAID IM BUSY!!! \n HE PUNCHES YOU IN THE FACE YOU DED \n  ")
 
 
 
@@ -161,7 +171,18 @@ def Sandra():
     else:
         print("INVALID ANSWER \n")
 def Market():
-    print("YOU WALK INTO THE MARKET, YOU SEE A CASHIER. YOU GO UP TO THEM \n YOU: Hve you seen a woman named Sandra? \n Worker: I don't think so... \n YOU: She has black hair.. 5'5? \n Worker: No sorry. \n YOU: Thanks anyway. \n  ")
+    print("YOU WALK INTO THE MARKET, YOU SEE A CASHIER. YOU GO UP TO THEM \n YOU: Have you seen a woman named Sandra? \n Worker: I don't think so... \n YOU: She has black hair.. 5'5? \n Worker: No sorry. \n YOU: Thanks anyway. \n  ")
+    a38 = input(" 1. Go ask someone else \n 2. Walk out of market ")
+    if a38 == "1":
+        elseu()
+    elif a38 =="2":
+        Walkoit()
+    else:
+        print("INVALID ANSWER")
+def elseu():
+    print(" YOU: Uh hello? Do you- \n A MAN PUNCHED YOU U DED")
+def Walkoit():
+    print(" YOU WALK OUT OF THE STORE AND FALL DOWN A MANHOLE. u ded")
 def Mount():
     print(" YOU GO TO A MINER TO TALK TO THEM BUT GOT HIT IN THE HEAD WITH A SHOVEL AND DED.")
 def Palor():
@@ -294,7 +315,7 @@ def Guessy():
     print(" Hit the gym my guy.. \n")
 
 def Right():
-    print("YOU WALK INTO THE TUNNEL, YOU HEAR A DISTANCE VOICE.. YOU RUN TO THE VOICE. \n UNKNOWN: Help me!!!! \n YOU: Sandra..?? \n SANDRA: Yes! Y/N? \n YOU: are you alright? Whats wrong?? \n AS YOU WALK TO SANDRA YOU SEE HER LIMPING  \n SANDRA: I twisted my Ankle back there. I found the gold atleast! \n SHE MOVES HER BODY TO THE SIDE AND A STASH OF COINS SUDDENLY APPEAR. \n YOU: Seriosuly? How! \n SANDRA: I found it in a well a few miles down. I twisted my ankle climbing back up by slipping and falling back into thewell. \n YOU: Jeesh, lets get you out of here so wecan fix your leg. \n SANDRA: Alright. \n YOU HELP SANDRA AND GO OUT OF THE TUNNEL. SUDDENLY ROCKS START  TUMBULING TOWARDS YOU.. \n  ")
+    print("YOU WALK INTO THE TUNNEL, YOU HEAR A DISTANCE VOICE.. YOU RUN TO THE VOICE. \n UNKNOWN: Help me!!!! \n YOU: Sandra..?? \n SANDRA: Yes! Y/N? \n YOU: are you alright? Whats wrong?? \n AS YOU WALK TO SANDRA YOU SEE HER LIMPING  \n SANDRA: I twisted my Ankle back there. I found the gold atleast! \n SHE MOVES HER BODY TO THE SIDE AND A STASH OF COINS SUDDENLY APPEAR. \n YOU: Seriosuly? How! \n SANDRA: I found it in a well a few miles down. I twisted my ankle climbing back up by slipping and falling back into the well. \n YOU: Jeesh, lets get you out of here so we can fix your leg. \n SANDRA: Alright. \n YOU HELP SANDRA AND GO OUT OF THE TUNNEL. SUDDENLY ROCKS START TUMBULING TOWARDS YOU.. \n  ")
     a10 =input(" 1. Run towards rocks. \n 2. Safe yourself. \n 3. Hide in a creves with Sandra")
     if a10 == "1":
         Ruaa()
@@ -303,8 +324,8 @@ def Right():
     elif a10 == "3":
         HIDE()
 def Ruaa(): 
-    print(" YOU RUN TOWARDS THE ROCKS WITH SANDRA,YOU GET HIT BY THE ROCKS AND DIE.\n ")
-    a23 = input("1.bro I should have hid.. \n 2. Seriously \n ")
+    print(" YOU RUN TOWARDS THE ROCKS WITH SANDRA, YOU GET HIT BY THE ROCKS AND DIE.\n ")
+    a23 = input("1. bro I should have hid.. \n 2. Seriously \n ")
     if a23 == "1":
         BROW()
     elif a23 == "2": 
@@ -342,7 +363,7 @@ def Yeahhh():
 def RUDEYS():
     print(" Bro I'm bannishing you for being a bad person \n ")
 def HIDE():
-    print(" YOU GRAB SANDRA AND THE GOLD AND RUN THE THE CREVES. THE ROCKS SLOWLY STOP TUMBLING AT YOU. \n SANDRA: Thank god.. Now lets get out of here! \n YOU AND SANDRA MOVE THE ROCKS AWAY AND LIMP TOWARDS THE EXIT. \n YOU: We're out! \n SANDRA: Great, lets getto a hospital now, huh? \n SANDRA RECOVERS FROM HER FRACTURED LEG AND YOU BOTH LIVE HAPPILY EVER AFTER WITH YOUR RICHES. \n ")
+    print(" YOU GRAB SANDRA AND THE GOLD AND RUN THE THE CREVES. THE ROCKS SLOWLY STOP TUMBLING AT YOU. \n SANDRA: Thank god.. Now lets get out of here! \n YOU AND SANDRA MOVE THE ROCKS AWAY AND LIMP TOWARDS THE EXIT. \n YOU: We're out! \n SANDRA: Great, lets get to a hospital now, huh? \n SANDRA RECOVERS FROM HER FRACTURED LEG AND YOU BOTH LIVE HAPPILY EVER AFTER WITH YOUR RICHES. \n ")
 def Bye():
     print("... \n")
 
